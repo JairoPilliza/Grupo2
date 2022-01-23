@@ -1,0 +1,90 @@
+
+#seccioni{
+	width: 900px;
+	float: right;
+	text-align: center;
+}
+#seccion{
+	padding-top: 50px;
+	height: 430px;
+	width: 400px;
+	float: 10px;
+	text-align: center;
+}
+#seccion2{
+
+	height: 50px;
+	width: 100%;
+	float: 10px;
+	text-align: center;
+	color: white;
+}
+#seccionf{
+	width: 850px;
+	height: 50px;
+	float: right;
+	text-align: center;
+	
+}
+#slider{
+	position: relative;
+	margin-left: 20px;
+	height: 120px;
+	width: 256px;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+img{
+	width: 110px;
+	height: 110px;
+}
+.cabecera{
+	width: 70px;
+	border: 3px;
+	color: aqua;
+	background-color: purple;
+}
+table{
+	background-color: silver;
+	border: 3px;
+	color: black;
+}
+.semaforo{
+	width: 60px;
+	height: 30px;
+}
+.banner_img{
+    animation: movimiento 2.5s linear infinite;
+}
+
+.banner_img img{
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.mitad{
+	width: 50%;
+}
+.mitad2{
+	width: 80%;
+}
+.navbar img{
+	width: 50px;
+	height: 50px;
+}
+.imgfooter{
+	padding-top: 10px;
+	width:60px; 
+	height:60px;
+}
